@@ -1,3 +1,42 @@
 .smallButton {
-
+    width: 269px;
+    height: 230px;
+    background-color: #f1f1f1;
+    border-width: calc(7px / 2);
+    border-radius: 13px;
+    border-color: #8d9391;
+    //   color: #8d9391;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    &__icon {
+      // background-color: #585858;
+      margin-top: 29.6px;
+      width: 133px;
+  
+      > svg {
+        > g {
+          fill: #585858;
+        }
+      }
+    }
+  
+    &__text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 33px;
+      color: #585858;
+    }
+  
+    &:active {
+      background-color: #dbdbdb;
+      
+      // border-style: inherit;
+    }
+  
+    &:focus {
+      outline: none;
+    }
 }

@@ -1,3 +1,31 @@
 .header {
-    
+  width: 100%;
+  height: 78px;
+  background-color: #dbdbdb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  &__leftIcon {
+      align-self: flex-end; 
+    > img {
+      width: 318px;
+      
+    }
+  }
+  &__centerText {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555958;
+    text-transform: uppercase;
+    > p {
+        text-align: center;
+    }
+  }
+  &__rightIcon {
+    > img {
+      width: 75px;
+    }
+  }
 }
